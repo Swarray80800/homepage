@@ -1,0 +1,21 @@
+.body{
+    background-image:url(photo.jpg) ;
+    background-repeat: n;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(165, 42, 155);
+    text-align: center;
+    border: 5px;
+    padding: 10px;
+}
+.submit {
+    /* loginbutton */
+    background-color: brown;
+    width: 200px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 20px;
+    border-radius: 30px;
+font-size: larger;
+margin: 0 0 20px 9px;
+}
