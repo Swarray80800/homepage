@@ -77,6 +77,9 @@ html {
     color: var(--main-color);
     display: none;
 }
+#close{
+    display: none;
+}
 
 /* Sections */
 .section {
@@ -399,7 +402,9 @@ color:white;
     margin-bottom: 5rem;
     font-size: 10rem;
 }
-
+#menu-bar{
+    display: none;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -588,9 +593,10 @@ border-bottom: 3px solid var(--main-color);
     padding: 2rem 3%;
 }
 @media(max-width:895px){
-    #meun-icon{
+    #menu-bar{
         display: block;
     }
+
     .navbar{
         position: absolute;
         top: 100%;

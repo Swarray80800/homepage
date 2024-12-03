@@ -1,10 +1,13 @@
-// script.js
 
-document.addEventListener("DOMContentLoaded", () => {
-    const menuIcon = document.getElementById("menu-icon");
-    const navbar = document.querySelector(".navbar");
+function show(){
+  document.getElementById('nav-bar').style.display='block'
+  document.getElementById('close').style.display='block'
+  
+    
+   
+}
+function hidde(){
+  document.getElementById('nav-bar').style.display='none'
 
-    menuIcon.addEventListener("click", () => {
-        navbar.classList.toggle("active");
-    });
-});
+}
+console.log(document.getElementById('nav-bar').innerHTML)
