@@ -377,7 +377,7 @@ color:white;
     max-height: 200px;
     justify-items: left;
     align-items: baseline;
-    padding: 5rem 5rem;
+    padding: right;
 }
 .service-info h4{
     font-size: 3rem;
