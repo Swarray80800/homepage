@@ -365,7 +365,7 @@ color:white;
     transition: 0.4s ease-in-out;
 }
 .service-box:hover{
-    background: white;
+    background: rgb(100, 21, 21);
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
@@ -401,6 +401,7 @@ color:white;
     text-align: center;
     margin-bottom: 5rem;
     font-size: 10rem;
+    color:white
 }
 #menu-bar{
     display: none;
@@ -412,7 +413,7 @@ color:white;
 }
 
 .testimonial-item {
-    background: #111111;
+    background: #111010;
     border: 2px solid var(--main-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -427,17 +428,26 @@ color:white;
 }
 
 .testimonial-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 2.5rem;
     box-shadow: 0 0 10px var(--main-color);
 }
+.Image{
+    width: 300px;
+        height: 200px;
+        padding-left: 20px;
+    padding-right: 6px;
+
+}
+
+
 
 .testimonial-item h2 {
-    font-size: 3%;
+    font-size: 8%;
     margin-bottom: 1rem;
-    color: #fcf5f5;
+    color: #d11313;
 }
 
 .testimonial-item p {
@@ -585,6 +595,7 @@ border-bottom: 3px solid var(--main-color);
 }
 .testimonials .wrapper{
     grid-template-columns: repeat(1,1fr);
+ 
 }
 .contact form{
     flex-direction: column;
