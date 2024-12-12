@@ -11,23 +11,40 @@
 
 <body>
     <!-- Header Section -->
-    <header style="display: flex; justify-content: space-between; padding-left: 5vw; padding-right:0 ;" class="header">
+    <header style="display: flex; justify-content: space-between; padding-left: 5vw; padding-right: 0 ;" class="header">
         <a href="#home" class="logo"><span>Swarray INC</span></a>
-       
 
-        <nav id="nav-bar" style=" justify-content: space-around;" class="navbar">
-           <div class="">
-            <a href="index.html" class="active">Home</a>
-            <a href="education.html">Education</a>
-            <a href="services.html">Services</a>
-            <a href="testimonial.html">Testimonial</a>
-            <a href="#contact">Contact</a>
-            <a href="login.html">Login</a>
-           </div>
-           <p id="close" onclick="hidde()" style="color: white; font-size: large; cursor: pointer; position: absolute ; top: 0; right: 10px;">x</p>
+        <nav id="nav-bar" style="justify-content: space-around;" class="navbar">
+            <div class="">
+                <a href="index.html" class="active">Home</a>
+                <a href="education.html">Education</a>
+                <a href="services.html">Services</a>
+                <a href="testimonial.html">Testimonial</a>
+                <a href="#contact">Contact</a>
+               
+            </div>
+            <p id="close" onclick="hidde()" style="color: white; font-size: large; cursor: pointer; position: absolute ; top: 0; right: 10px;">x</p>
         </nav>
-  <span id="menu-bar" onclick=" show()" style="width: 200px;"><i style="color: white; font-size: 40px;" class="bx bx-menu "></i>  </span>      
+        <span id="menu-bar" onclick="show()" style="width: 200px;"><i style="color: white; font-size: 40px;" class="bx bx-menu "></i>  </span>      
     </header>
+
+    <!-- Login Section -->
+    <section class="login-section" id="login">
+        <div class="login-form-container">
+            <h2>Login</h2>
+            <form action="#" method="POST" class="login-form">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </section>
 
     <!-- Home Section -->
     <section class="home" id="home">
@@ -52,8 +69,6 @@
             <img src="oooooo.jpg" alt="Portfolio Image">
         </div>
     </section>
-
-    
 
     <!-- Footer Section -->
     <footer class="footer">

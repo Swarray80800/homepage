@@ -39,6 +39,27 @@ html {
     z-index: 5;
  
 }
+.body{
+    background-image:url(photo.jpg) ;
+    background-repeat: n;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(165, 42, 155);
+    text-align: center;
+    border: 5px;
+    padding: 10px;
+}
+.submit {
+    /* loginbutton */
+    background-color: brown;
+    width: 200px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 20px;
+    border-radius: 30px;
+font-size: larger;
+margin: 0 0 20px 9px;
+}
 
 .logo {
     font-size: 3rem;
@@ -256,7 +277,7 @@ color:white;
 
 /* Education Section */
 .education {
-    padding: 50px;
+    padding: 50px; 
     background: white
 }
 
@@ -288,6 +309,9 @@ color:white;
     width: 100%;
     margin-bottom: 40px;
     position: relative;
+}
+.timeline{
+    padding: 0 300px
 }
 
 .timeline-dot {
@@ -410,6 +434,7 @@ color:white;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2rem;
+    padding: 0 100px
 }
 
 .testimonial-item {
@@ -607,7 +632,9 @@ border-bottom: 3px solid var(--main-color);
     #menu-bar{
         display: block;
     }
-
+    .timeline{
+        padding: 0 30px
+    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -634,6 +661,9 @@ border-bottom: 3px solid var(--main-color);
         flex-direction: column-reverse;
         margin: 5rem 4rem;
     }
+    .wrapper{
+        padding: 0 10px
+    }
     .home-content h3{
         font-size: 2.6rem;
     }
@@ -648,6 +678,7 @@ border-bottom: 3px solid var(--main-color);
     .home-img{
         width: 56vw;
     }
+    
     .services h2{
         margin-bottom: 3rem;
     }
