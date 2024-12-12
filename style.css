@@ -657,6 +657,7 @@ border-bottom: 3px solid var(--main-color);
         margin: 3rem 0; 
         color: white; 
     }
+    /* this new branch */
     .home{
         flex-direction: column-reverse;
         margin: 5rem 4rem;
