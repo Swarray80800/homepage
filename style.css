@@ -328,7 +328,7 @@ color:white;
 .timeline-content {
     background-color: var(--background-color);
     border: 3px solid var(--main-color);
-    padding: 30px 50px;
+    padding: 30px 5rem;
     border-radius: 4rem;
     box-shadow: 0 0 10px var(--main-color);
     transition: 0.3s ease-in-out;
@@ -340,7 +340,7 @@ color:white;
 }
 
 .timeline-content h3 {
-    font-size: 40px;
+    font-size: 3rem;
     color: rgb(185, 29, 29);
     margin-bottom: 30px;
     font-weight: 800;
@@ -633,7 +633,7 @@ border-bottom: 3px solid var(--main-color);
         display: block;
     }
     .timeline{
-        padding: 0 30px
+        padding: 0 10px
     }
     .navbar{
         position: absolute;
